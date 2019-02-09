@@ -1,4 +1,4 @@
-A small library for sending iOS and Android push notifications with Amazon Simple Notification
+A library for sending iOS and Android push notifications with Amazon Simple Notification
 Servce (SNS).
 
 ## Example usage
