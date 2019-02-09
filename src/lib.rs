@@ -38,6 +38,7 @@
     unsafe_code,
     unused_imports
 )]
+#![doc(html_root_url = "https://docs.rs/sns-push-notifications/0.1.1")]
 
 use rusoto_sns::CreatePlatformEndpointInput;
 use rusoto_sns::PublishInput;
