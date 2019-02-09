@@ -1,0 +1,19 @@
+[package]
+version = "0.1.0"
+authors = ["David Pedersen <david.pdrsn@gmail.com>"]
+description = "Library for sending iOS and Android push notifications with AWS SNS"
+documentation = "https://docs.rs/sns-push-notifications"
+edition = "2018"
+homepage = "https://github.com/davidpdrsn/sns-push-notifications"
+keywords = ["sns", "aws", "rusoto"]
+license = "MIT"
+name = "sns-push-notifications"
+readme = "README.md"
+repository = "https://github.com/davidpdrsn/sns-push-notifications.git"
+
+[dependencies]
+rusoto_sns = "0.36.0"
+rusoto_core = "0.36.0"
+serde_json = "1.0.38"
+serde_derive = "1.0.87"
+serde = "1.0.87"
